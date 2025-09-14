@@ -1,5 +1,10 @@
 # AdaBoost on MNIST — Step-by-Step (EN/ES)
 
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)]()
+[![NumPy](https://img.shields.io/badge/NumPy-✓-orange)]()
+[![scikit--learn](https://img.shields.io/badge/scikit--learn-✓-ff9f1c)]()
+[![TensorFlow/Keras](https://img.shields.io/badge/TensorFlow%2FKeras-✓-ff6f00)]()
+
 > A very clear walkthrough of this project for high-school students. Each paragraph is explained in **English** 🇺🇸 and **Spanish** 🇪🇸.
 
 ---
