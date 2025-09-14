@@ -14,10 +14,10 @@
 ## 2) Files & structure
 
 - 🇺🇸 **English:**  
-  - `Jorge_Moreno_Ozores.py` — all the code (AdaBoost, MLP, plots, helpers).  
+  - `AdaBoost.py` — all the code (AdaBoost, MLP, plots, helpers).  
   - No extra data files; MNIST downloads automatically via `tf.keras`.  
 - 🇪🇸 **Español:**  
-  - `Jorge_Moreno_Ozores.py` — todo el código (AdaBoost, MLP, gráficas, utilidades).  
+  - `AdaBoost.py` — todo el código (AdaBoost, MLP, gráficas, utilidades).  
   - Sin archivos de datos extra; MNIST se descarga automáticamente con `tf.keras`.
 
 ---
@@ -28,7 +28,7 @@
   - Install Python 3.10+ and run:  
     ```bash
     pip install tensorflow matplotlib scikit-learn numpy
-    python Jorge_Moreno_Ozores.py
+    python AdaBoost.py
     ```  
   - By default it runs a **binary AdaBoost** for digit **9** and prints accuracy and time.  
   - Uncomment other lines in `__main__` to run the multiclass version, sklearn baseline, MLP, and plots.  
@@ -36,7 +36,7 @@
   - Instala Python 3.10+ y ejecuta:  
     ```bash
     pip install tensorflow matplotlib scikit-learn numpy
-    python Jorge_Moreno_Ozores.py
+    python AdaBoost.py
     ```  
   - Por defecto ejecuta **AdaBoost binario** para el dígito **9** e imprime precisión y tiempo.  
   - Descomenta otras líneas en `__main__` para lanzar la versión multiclase, la línea base de sklearn, la MLP y las gráficas.
@@ -182,7 +182,7 @@
 - 🇺🇸 **English:**  
   - Binary (default in `__main__`):  
     ```bash
-    python Jorge_Moreno_Ozores.py
+    python AdaBoost.py
     ```  
   - Multiclass one-vs-all (edit `__main__` to uncomment):  
     ```python
@@ -195,7 +195,7 @@
 - 🇪🇸 **Español:**  
   - Binario (por defecto en `__main__`):  
     ```bash
-    python Jorge_Moreno_Ozores.py
+    python AdaBoost.py
     ```  
   - Multiclase uno-contra-todos (edita `__main__` y descomenta):  
     ```python
